@@ -10,12 +10,12 @@ int main()
  	
 	double battingAvg [10]; 	  // An array to hold batting averages of 10 players
 	double battingAvgDev [10];	// New calculated batting average for the standard deviation
-  int i; 				              // iteration variable 
-  double sum = 0.0;		        // A variable to hold the sum of the array
+  	int i; 				              // iteration variable 
+  	double sum = 0.0;		        // A variable to hold the sum of the array
 	double avg = 0.0;		        // Variable to hold the initial average of batting averages
 	int arrSize = 10;		        // Variable to hold the size of the array
-  double tmp = 0.0;		        // Temporary variable for calculations
-  double avgDeviationCalc = 0.0; 	// Stores the averages of the deviated values from the OG avg
+  	double tmp = 0.0;		        // Temporary variable for calculations
+  	double avgDeviationCalc = 0.0; 	// Stores the averages of the deviated values from the OG avg
 	double deviatedSum = 0.0;	  // Stores the sum of the deviated values from the OG avg
 	double devHigh = 0.0;		    // High deviation variable
 	double devLow = 0.0;		    // Low deviation variable
